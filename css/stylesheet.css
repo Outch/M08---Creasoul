@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0 auto;
+	padding: 2%;
+	line-height: 1.8;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.6rem;
+	color: #646466;
+	background-color: #F2F1F4;
+}
+
+#logo_crea {
+	display: block;
+	text-align: center;
+}
+
+nav {
+	background-color: #30A894;
+	text-align: center;
+	padding: 3%;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin: 25px;
+}
+
+h1, h2 {
+	font-family: "PT Sans-Narrow", sans-serif;
+	color: #37AA97;
+	border-bottom: 1px solid #37AA97;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+section img {
+	width: 100%;
+}
+
+a {
+	color: #63BBBD;
+	text-decoration: none;
+}
+
+aside {
+	display: none;
+	padding: 3%;
+	background-color: #B8DCB1;
+}
+
+#licence {
+    color: #646466;
+    text-align: center;
+    padding: 25px;
+    display: block;
+}
+
+#licence img {
+    width: 50px;
+    margin: 0 auto;
+}
+
+#licence a {
+    color: #63BBBD;
+}
+
+@media screen and (min-width: 767px) {
+  aside {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+	nav {
+		padding: 1%;
+	}
+	nav a {
+		display: inline-block;
+		width: 20%;
+	}
+	body {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	section {
+		vertical-align: top;
+		display: inline-block;
+		width: 70%;
+		padding: 2%;
+	}
+	aside {
+		vertical-align: top;
+		display: inline-block;
+		width: 30%;
+		padding: 10px;
+	}
+}
